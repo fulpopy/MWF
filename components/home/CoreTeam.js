@@ -58,7 +58,7 @@ export default function CoreTeam() {
         alt=""
         className="rounded-full w-40 h-40 md:w-30 md:h-30 object-cover ring ring-zinc-200"
       />
-      <p className="font-medium mt-2 text-lg opacity-75">Shobhit Srivastav</p>
+      <p className="font-medium mt-2 text-lg opacity-75">Shobhit Srivastava</p>
       <p className="text-zinc-500">Founder</p>
       {/* <div className="w-max-[90vw] w-full md:w-8/12 overflow-x-auto"> */}
       {/* <div className="flex flex-row w-max flex-wrap">

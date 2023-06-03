@@ -5,16 +5,36 @@ export default function Navbar() {
 
   return (
     <div class="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-      <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
+      <div class="relative flex items-center justify-between  lg:space-x-16">
+        <a
+          href="#"
+          aria-label="Company"
+          title="Company"
+          class="inline-flex items-center"
+        >
+          <img src="/header_logo.jpg" alt="" className="h-20 lg:h-30" />
+        </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
-          <a
-            href="#"
-            aria-label="Company"
-            title="Company"
-            class="inline-flex items-center"
-          >
-            <img src="/header_logo.jpg" alt="" className="h-20 lg:h-30" />
-          </a>
+          {/* <li>
+            <a
+              href="#stats"
+              aria-label="Statistics"
+              title="Statistics"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              Statistics
+            </a>
+          </li> */}
+          <li>
+            <a
+              href="#about"
+              aria-label="About Us"
+              title="About Us"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              About Us
+            </a>
+          </li>
           <li>
             <a
               href="#donate"
@@ -35,26 +55,14 @@ export default function Navbar() {
               Founder
             </a>
           </li>
-        </ul>
-        <ul class="flex items-center hidden space-x-8 lg:flex">
-          {/* <li>
-            <a
-              href="#stats"
-              aria-label="Statistics"
-              title="Statistics"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              Statistics
-            </a>
-          </li> */}
           <li>
             <a
-              href="#about"
-              aria-label="About Us"
-              title="About Us"
+              href="#contacts"
+              aria-label="Contacts"
+              title="Contacts"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              About Us
+              Contacts
             </a>
           </li>
         </ul>
@@ -110,7 +118,7 @@ export default function Navbar() {
                 </div>
                 <nav>
                   <ul class="space-y-4">
-                    <li>
+                    {/* <li>
                       <a
                         href="#"
                         aria-label="Our product"
@@ -119,37 +127,7 @@ export default function Navbar() {
                       >
                         Product
                       </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Donate
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#team"
-                        aria-label="Product Our Team"
-                        title="Product Our Team"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Our Team
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#stats"
-                        aria-label="Statistics"
-                        title="Statistics"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Statistics
-                      </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="#about"
@@ -158,6 +136,48 @@ export default function Navbar() {
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         About Us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#donate"
+                        aria-label="Our product"
+                        title="Our product"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Donate
+                      </a>
+                    </li>
+
+                    {/* <li>
+                      <a
+                        href="#stats"
+                        aria-label="Statistics"
+                        title="Statistics"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Statistics
+                      </a>
+                    </li> */}
+
+                    <li>
+                      <a
+                        href="#team"
+                        aria-label="Product Our Team"
+                        title="Product Our Team"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Founder
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#contacts"
+                        aria-label="Contacts"
+                        title="Contacts"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Contacts
                       </a>
                     </li>
                   </ul>

@@ -14,14 +14,6 @@ export default function Donate() {
           <p className="text-4xl lg:text-5xl font-bold pt-10 md:pt-0">
             Want to donate
           </p>
-          <div className="my-6 text-base text-color f-f-l mx-4 opacity-60 text-center">
-            <b>Address:</b> Nishulk Pathshala
-            <br />
-            Deeghee, Pandila, Prayagraj, U.P., 211013 <br />
-            <b>Email:</b> m.w.foundation99@gamil.com
-            <br />
-            <b>Mobile:</b> +919415018336
-          </div>
           <p className="lg:text-lg 2xl:text-xl py-6 text-center">
             We will keep giving you monthly details of your donation by mail. So
             that our and your credibility remains. All work was done
@@ -29,9 +21,13 @@ export default function Donate() {
             work and expenses done by the organization will be presented to you
             with full transparency. The organization promises you this.
           </p>
-          {/* <img src="/qr.jpeg" alt="" className="rounded-sm w-6/12 sm:w-4/12 md:w-5/12 lg:w-3/12" />
+          <img
+            src="/qr.png"
+            alt=""
+            className="rounded-sm w-6/12 sm:w-4/12 md:w-5/12 lg:w-3/12"
+          />
           <a
-            href="/qr.jpeg"
+            href="/qr.png"
             className="flex justify-center items-center p-3 px-6 w-max bg-indigo-500 text-white font-semibold rounded-full shadow-lg hover:shadow-indigo-500/30 hover:scale-[1.02] transition-all ease-in-out duration-100 sm:scale-100 m-1.5"
             target="_blank"
             rel="noopener noreferrer"
@@ -52,7 +48,7 @@ export default function Donate() {
                 d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
               />
             </svg>
-          </a> */}
+          </a>
         </div>
       </div>
     </div>
